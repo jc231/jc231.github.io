@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+/*index css*/
 body,
 html{
 	width: 100%;
@@ -139,6 +140,24 @@ footer{
 	background-color: cornsilk;
 	border: solid darkblue;
 }
+/*about css*/
+.about-main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+.about-main h2 {
+	font-family: "Rinse-Regular", "Atrament SemiBold Italic";
+	width: 100%;
+	text-align: center;
+}
+.about-main p{
+	text-align: center;
+	font-family: "Rinse-Regular", "Atrament SemiBold Italic";
+	width: 800px;
+}
+
 
 
 @media screen and (max-width: 1024px){
@@ -165,6 +184,7 @@ footer{
 		left: 190px;
 		width: 600px;
 	}
+	
 }
 @media screen and (max-width: 823px){
 	.cards{
