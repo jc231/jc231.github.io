@@ -13,6 +13,7 @@ header, .head{
 }
 .w-nav{
 	display: none;
+	font-family: "stylish";
 }
 .logo{
 	margin: 10px;
@@ -41,10 +42,27 @@ header, .head{
 	left: 7px;
 	top: 20px;
 }
+.about-btn{
+	display: flex;
+	margin: 10px;
+	font-family: "stylish";
+}
+
+.btn-about{
+	background-color: blue;
+	color: white;
+	width: 118px;
+}
+.btn-about:hover{
+	color: white;
+	background-color: skyblue;
+}
 .dropdown1{
+	font-family: "stylish";
 	position: relative;
 	top: 60px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 #dropdownMenuLink1{
@@ -84,10 +102,26 @@ header, .head{
 	top: 25px;
 	right: -15px;
 }
+.news-btn{
+	display: flex;
+	margin: 10px;
+	font-family: "stylish";
+}
+.btn-news{
+	width: 144px;
+	color: white;
+	background-color: darkslateblue;
+}
+.btn-news:hover{
+	color: white;
+	background-color: blueviolet;
+}
 .dropdown2{
+	font-family: "stylish";
 	position: relative;
 	top: 60px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 #dropdownMenuLink2{
@@ -111,6 +145,13 @@ footer{
 .cards{
 	margin: 20px 200px 20px;
 }
+.card-title{
+	font-family: "stylish";
+	font-weight: 500;
+}
+.card-text{
+	font-family: "stylish";
+}
 .engine-pics{
 	display: flex;
 	flex-wrap: wrap;
@@ -128,6 +169,7 @@ footer{
 }
 
 .ACMA-text h3 {
+	font-family: "stylish";
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -141,6 +183,7 @@ footer{
 	justify-content: center;
 	margin-top: 20px;
 	margin-bottom: 50px;
+	font-family: "stylish";
 }
 .shop-button{
 	display: flex;
@@ -150,6 +193,7 @@ footer{
 	margin-bottom: 20px;
 }
 .price-pp{
+	font-family: "stylish";
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;

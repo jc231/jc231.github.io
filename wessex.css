@@ -9,6 +9,7 @@ html{
 }
 .w-nav{
 	display: none;
+	font-family: "stylish";
 }
 header, .head{
 	flex-wrap: wrap;
@@ -36,17 +37,34 @@ header, .head{
 	left: 7px;
 	top: 20px;
 }
+.about-btn{
+	display: flex;
+	margin: 10px;
+	font-family: "stylish";
+}
+
+.btn-about{
+	background-color: blue;
+	color: white;
+	width: 118px;
+}
+.btn-about:hover{
+	color: white;
+	background-color: skyblue;
+}
 .dropdown1{
 	position: relative;
 	top: 60px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
+	font-family: "stylish";
 }
 #dropdownMenuLink1{
 	background-color: skyblue;
 }
 #dropdownMenuLink1:hover{
-	background-color: cadetblue;
+	background-color: blue;
 }
 .dropdown-menu{
 	box-shadow: 5px 5px 5px 1px grey;
@@ -79,14 +97,30 @@ header, .head{
 	top: 25px;
 	right: -15px;
 }
+.news-btn{
+	display: flex;
+	margin: 10px;
+	font-family: "stylish";
+}
+.btn-news{
+	width: 144px;
+	color: white;
+	background-color: darkslateblue;
+}
+.btn-news:hover{
+	color: white;
+	background-color: blueviolet;
+}
 .dropdown2{
+	font-family: "stylish";
 	position: relative;
 	top: 60px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 #dropdownMenuLink2{
-	background-color: slateblue;
+	background-color: blueviolet;
 }
 #dropdownMenuLink2:hover{
 	background-color: darkslateblue;
@@ -117,7 +151,8 @@ margin: 10px;
 	height: 63px;
 }
 .pinasco-text{
-	font-family: "Rinse-Regular", "Atrament SemiBold Italic";
+	font-family: "stylish";
+	font-weight: 600;
 	text-align: center;
 	margin: 10px;
 }
@@ -148,13 +183,13 @@ footer{
 	margin-top: 20px;
 }
 .about-main h2 {
-	font-family: "Rinse-Regular", "Atrament SemiBold Italic";
+	font-family: "stylish";
 	width: 100%;
 	text-align: center;
 }
 .about-main p{
 	text-align: center;
-	font-family: "Rinse-Regular", "Atrament SemiBold Italic";
+	font-family: "stylish";
 	width: 800px;
 }
 
