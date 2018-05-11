@@ -49,9 +49,11 @@ a {
 }
 h1{
 	position: absolute;
-	top: 600px;
+	top: 650px;
 	right: 200px;
 	font-size: 7em;
 	color: whitesmoke;
 	opacity: .3;
+	padding: 0;
+	margin: 0;
 }
