@@ -34,8 +34,10 @@ container{
 }
 .menu li {
 	display: inline-block;
-	background-color: antiquewhite;
+	background-color: grey;
 	border: solid;
+	border-color: silver;
+	opacity: .8;
 	border-radius: 5px;
 	padding:10px;
 	margin: 10px;
@@ -43,7 +45,7 @@ container{
 a {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	text-decoration: none;
-	color: black;
+	color: silver;
 }
 .attract_cont{
 	display: flex;

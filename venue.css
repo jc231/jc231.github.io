@@ -35,7 +35,8 @@ body,html{
 }
 li {
 	display: inline-block;
-	background-color: antiquewhite;
+	background-color: skyblue;
+	opacity: .5;
 	border: solid;
 	border-radius: 5px;
 	padding:10px;

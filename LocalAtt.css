@@ -38,6 +38,7 @@ body,html{
 	border: solid;
 	border-radius: 5px;
 	border-color: cornflowerblue;
+	opacity: .5;
 	padding:10px;
 	margin: 10px;
 }
