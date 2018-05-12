@@ -69,7 +69,7 @@ a {
 	font-size: 20px;
 }
 /*media queries*/
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1278px){
 	.attract_cont{
 	display: flex;
 	position: absolute;
