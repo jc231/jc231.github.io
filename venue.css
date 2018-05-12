@@ -70,7 +70,7 @@ h1{
 	margin: 0;
 }
 }
-@media screen and (max-width: 1278px){
+@media screen and (max-width: 1152px){
 	h1{
 	position: absolute;
 	top: 600px;
