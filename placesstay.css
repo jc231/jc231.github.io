@@ -68,3 +68,34 @@ a {
 	color: whitesmoke;
 	font-size: 20px;
 }
+/*media queries*/
+@media screen and (max-width: 1024px){
+	.background{
+	background-image: url(images/placestay1024.jpg);
+	background-size: cover;
+	height: 100%;
+}
+	.attract_cont{
+	display: flex;
+	position: absolute;
+	left: 130px;
+	top: 800px;
+	width: 500px;
+	height: 250px;
+	background-color: grey;
+	opacity: .7;
+	border: solid;
+	border-color: silver;
+	border-radius: 15px;
+}
+	.jakemandy{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 30px;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	left: 400px;
+	top: 300px;
+	color: azure;
+}
+}

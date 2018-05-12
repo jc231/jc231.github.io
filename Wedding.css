@@ -45,3 +45,50 @@ a {
 	text-decoration: none;
 	color: black;
 }
+/*media queries*/
+@media screen and (max-width: 1280px){
+	.jakemandy{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 30px;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	left: 520px;
+	top: 120px;
+}
+}
+@media screen and (max-width: 1024px){
+	.startup {
+	display: flex;
+	background-image: url(images/JM1024.jpg);
+	background-size: cover;
+	height: 100%;
+}
+	.jakemandy{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 30px;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	left: 150px;
+	top: 180px;
+}
+	.menu{
+	position: absolute;
+	top: 50px;
+}
+li {
+	display: inline-block;
+	background-color: antiquewhite;
+	opacity: .6;
+	border: solid;
+	border-radius: 5px;
+	padding:10px;
+	margin: 10px;
+}
+a {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-decoration: none;
+	color: black;
+}
+}

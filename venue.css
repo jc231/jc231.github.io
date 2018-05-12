@@ -57,3 +57,43 @@ h1{
 	padding: 0;
 	margin: 0;
 }
+/*media queries*/
+@media screen and (max-width: 1366px){
+	h1{
+	position: absolute;
+	top: 750px;
+	right: 200px;
+	font-size: 7em;
+	color: whitesmoke;
+	opacity: .3;
+	padding: 0;
+	margin: 0;
+}
+}
+@media screen and (max-width: 1024px){
+	h1{
+	position: absolute;
+	top: 1050px;
+	right: 150px;
+	font-size: 7em;
+	color: whitesmoke;
+	opacity: .3;
+	padding: 0;
+	margin: 0;
+}
+.jakemandy{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 30px;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	left: 500px;
+	top: 150px;
+}
+	.background{
+	display: flex;
+	background-image: url(images/conwy1024.jpg);
+	background-size: cover;
+	height: 100%;
+}
+}

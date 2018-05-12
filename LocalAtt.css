@@ -68,3 +68,34 @@ a {
 	color: navy;
 	font-size: 20px;
 }
+/*media queries*/
+@media screen and (max-width: 1024px){
+	.background{
+	display: flex;
+	background-image: url(images/localatt1024.jpg);
+	background-size: cover;
+	height: 100%;
+}
+	.attract_cont{
+	display: flex;
+	position: absolute;
+	right: 50px;
+	top: 350px;
+	width: 500px;
+	height: 250px;
+	background-color: aliceblue;
+	opacity: .3;
+	border: solid;
+	border-color: cornflowerblue;
+	border-radius: 15px;
+}
+	.jakemandy{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 30px;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	left: 450px;
+	top: 200px;
+}
+}
