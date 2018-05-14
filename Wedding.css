@@ -11,6 +11,7 @@ body, html {
 
 .startup {
 	display: flex;
+	flex-wrap: wrap;
 	background-image: url(images/jakemandy.jpg);
 	background-size: cover;
 	height: 100%;
@@ -28,7 +29,10 @@ body, html {
 	left: 600px;
 	top: 120px;
 }
-.menu{
+.mobile-menu{
+	display: none;
+}
+.menu-list{
 	position: absolute;
 	top: 50px;
 }
@@ -46,6 +50,18 @@ a {
 	color: black;
 }
 /*media queries*/
+@media screen and (max-width: 1366px){
+	.menu-list{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	.nav-item{
+		background-color: whitesmoke;
+		margin: 10px 30px;
+	}
+}
 @media screen and (max-width: 1280px){
 	.jakemandy{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -73,22 +89,158 @@ a {
 	left: 150px;
 	top: 180px;
 }
-	.menu{
-	position: absolute;
-	top: 50px;
+	.menu-list{
+	display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	.nav-item{
+	background-color: whitesmoke;
+	}
 }
-li {
-	display: inline-block;
-	background-color: antiquewhite;
-	opacity: .6;
-	border: solid;
-	border-radius: 5px;
-	padding:10px;
-	margin: 10px;
+@media screen and (max-width: 812px){
+	.menu-list{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	.startup {
+	position: relative;
+	display: flex;
+	background-image: url(images/moblanscape.jpg);
+	background-size: cover;
+	height: 100%;
 }
-a {
+	.jakemandy{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	text-decoration: none;
-	color: black;
+	font-size: 30px;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	left: 50px;
+	top: 80px;
+}
+}
+@media screen and (max-width: 768px){
+	.startup {
+	position: relative;
+	display: flex;
+	background-image: url(images/JM1024.jpg);
+	background-size: cover;
+	height: 100%;
+}
+}
+@media screen and (max-width: 736px){
+	.menu-list{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	.startup {
+	position: relative;
+	display: flex;
+	background-image: url(images/moblanscape.jpg);
+	background-size: cover;
+	height: 100%;
+}
+	.jakemandy{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 30px;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	left: 50px;
+	top: 80px;
+}
+}
+@media screen and (max-width:667px){
+	.menu-list{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	.startup {
+	position: relative;
+	display: flex;
+	background-image: url(images/moblanscape.jpg);
+	background-size: cover;
+	height: 100%;
+}
+	.jakemandy{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 30px;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	left: 50px;
+	top: 80px;
+}
+}
+@media screen and (max-width:414px){
+	.menu-list{
+		display: none;
+	}
+	.jakemandy{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 30px;
+	color: whitesmoke;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	left: 310px;
+	top: 370px;
+}
+	.mobile-menu{
+		width: 100%;
+		display: block;
+	}
+	.startup {
+	position: relative;
+	display: flex;
+	background-image: url(images/JM1024.jpg);
+	background-size: cover;
+	height: 100%;
+}
+}
+@media screen and (max-width:375px){
+	.menu-list{
+		display: none;
+	}
+	.jakemandy{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 30px;
+	color: whitesmoke;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	left: 280px;
+	top: 340px;
+}
+	.mobile-menu{
+		width: 100%;
+		display: block;
+	}
+	.startup {
+	position: relative;
+	display: flex;
+	background-image: url(images/JM1024.jpg);
+	background-size: cover;
+	height: 100%;
+}
+}
+@media screen and (max-width:320px){
+	.jakemandy{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 30px;
+	color: whitesmoke;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	left: 230px;
+	top: 320px;
 }
 }
