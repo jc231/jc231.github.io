@@ -30,7 +30,7 @@ body, html {
 	top: 120px;
 }
 .mobile-menu{
-	display: none;
+	display: block;
 }
 .menu-list{
 	position: absolute;
@@ -53,6 +53,9 @@ a {
 @media screen and (min-width: 1366px){
 	.mobile-menu{
 		display: block;
+	}
+	.menu-list{
+		display: none;
 	}
 	.attract_cont a{
 		color:black;
