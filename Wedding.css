@@ -61,6 +61,14 @@ a {
 		color:black;
 }
 }
+@media screen and (min-width: 1280px){
+	.mobile-menu{
+		display: block;
+	}
+	.menu-list{
+		display: none;
+	}
+}
 @media screen and (max-width: 1280px){
 	.jakemandy{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
