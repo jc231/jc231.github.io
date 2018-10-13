@@ -75,6 +75,21 @@ a {
 		display: none;
 	}
 }
+@media screen and (min-width: 1024px){
+	.mobile-menu{
+		display: block;
+	}
+	.pageheading{
+	left: 50px;
+	top: 200px;
+	}
+	.attract_cont{
+	margin-left: 100px;
+	}
+	.attract_cont a{
+		color:black;
+}
+}
 @media screen and (max-width: 1024px){
 	.startup {
 	display: flex;
