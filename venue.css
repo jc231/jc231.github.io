@@ -29,14 +29,16 @@ body,html{
 	left: 600px;
 	top: 120px;
 }
+.mobile-menu{
+	display: block;
+}
 .menu-list{
 	position: absolute;
 	top: 50px;
 }
 li {
 	display: inline-block;
-	background-color: skyblue;
-	opacity: .5;
+	background-color: whitesmoke;
 	border: solid;
 	border-radius: 5px;
 	padding:10px;
