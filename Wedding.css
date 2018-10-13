@@ -38,7 +38,7 @@ body, html {
 }
 li {
 	display: inline-block;
-	background-color: antiquewhite;
+	background-color: whitesmoke;
 	border: solid;
 	border-radius: 5px;
 	padding:10px;
@@ -50,17 +50,13 @@ a {
 	color: black;
 }
 /*media queries*/
-@media screen and (max-width: 1366px){
-	.menu-list{
-		display: none;
-	}
+@media screen and (min-width: 1366px){
 	.mobile-menu{
 		display: block;
 	}
-	.nav-item{
-		background-color: whitesmoke;
-		margin: 10px 30px;
-	}
+	.attract_cont a{
+		color:black;
+}
 }
 @media screen and (max-width: 1280px){
 	.jakemandy{
