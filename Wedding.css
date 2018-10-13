@@ -71,6 +71,9 @@ a {
 	left: 520px;
 	top: 120px;
 }
+	.menu-list{
+		display: none;
+	}
 }
 @media screen and (max-width: 1024px){
 	.startup {
